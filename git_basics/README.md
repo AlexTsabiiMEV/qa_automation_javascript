@@ -1,1 +1,1 @@
-# qa_automation_javascript
+Now I can use gitgit push -u origin feat-git-basics
