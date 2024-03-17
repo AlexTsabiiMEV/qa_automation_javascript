@@ -4,23 +4,18 @@
 
 const minValue = 9;
 
-const numbersList = [1,2,3,4,5,6,7,8,9,10];
+const numbersList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+function filterGreaterThanValue(minValue, numbersList) {
+  const newNumbersList = [];
 
-function filterGreaterThanValue (minValue, numbersList) {
-    
-    let newNumbersList = [];
+  for (let i = 0; i < numbersList.length; i++) {
+    if (numbersList[i] > minValue) {
+      newNumbersList.push(numbersList[i]);
+    }
+  }
 
-    for (let i = 0; i < numbersList.length; i++) {
-        if (numbersList[i] > minValue) {
-            newNumbersList.push(numbersList[i]);
-        } 
-      }
-      
-      return newNumbersList;
-
+  return newNumbersList;
 }
 
 console.log(filterGreaterThanValue(minValue, numbersList));
-
- 

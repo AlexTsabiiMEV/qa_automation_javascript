@@ -1,16 +1,11 @@
-
 // Напишіть функцію яка буде приймати 2 аргументи - довільний текст як перший аргумент та кількість мілісекунд як другий аргумент. Функція повинна вивести в консоль переданий текст через вказану кількість мілісекунд
 
-
-let text = "text";
-
-
+const text = 'text';
 
 function showText(text, time) {
-    setTimeout(() => {
-        console.log(text);
-    }, time);
+  setTimeout(() => {
+    console.log(text);
+  }, time);
 }
 
-
-showText(text,5000);
+showText(text, 5000);

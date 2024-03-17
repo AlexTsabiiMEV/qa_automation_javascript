@@ -4,19 +4,15 @@
 // Фунція повинна викликатися, доки num не стане менше або рівне 0.
 // Викличте вашу функцію з аргументом, наприклад, 5, щоб почати рекурсивний лічильник.
 
-
 const num = 100;
 
-function newFunction (num) {
-    console.log(num);
-    if (num <= 0) {
-        return;
-    } else {
-        newFunction (num - 1) 
-    }  
+function newFunction(num) {
+  console.log(num);
+  if (num <= 0) {
+
+  } else {
+    newFunction(num - 1);
+  }
 }
 
-
 newFunction(num);
-
-

@@ -4,9 +4,9 @@
 // Виведіть усі змінні в консоль
 // До домашки додайте скріншоти виконання і лінк на пулл реквест
 
-let age = 99;
-let adult = 18;
+const age = 99;
+const adult = 18;
 
-let adultAge = age >= adult;
+const adultAge = age >= adult;
 
 console.log(adultAge);

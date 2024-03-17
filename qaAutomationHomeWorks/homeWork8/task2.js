@@ -5,14 +5,12 @@
 // year: число, представляє рік видання книги.
 // Деструктуризуйте назву та автора книги з об'єкта book.
 
+const book = {
+  title: 'Harry Potter',
+  author: 'Joan K Rowling',
+  year: 1997,
+};
 
-let book = {
-    title: "Harry Potter",
-    author: "Joan K Rowling",
-    year: 1997
-}
-
-
-let { title, author } = book;
+const { title, author } = book;
 
 console.log(`Назва книги "${title}", автор ${author}`);

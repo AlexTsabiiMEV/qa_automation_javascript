@@ -2,17 +2,13 @@
 // Використовуючи цикл for...of, переберіть всі елементи масиву та виведіть їхні значення в консоль.
 // Зробіть деструктуризацію в циклі
 
-
-
-let users = [
-    {name: "John Doe", email: "john.doe@gmail.com", age: 30},
-    {name: "Harry Potter", email: "harry.potter@gmail.com", age: 16},
-    {name: "Dart Vader", email: "dart.vader@gmail.com", age: 70},
+const users = [
+  { name: 'John Doe', email: 'john.doe@gmail.com', age: 30 },
+  { name: 'Harry Potter', email: 'harry.potter@gmail.com', age: 16 },
+  { name: 'Dart Vader', email: 'dart.vader@gmail.com', age: 70 },
 ];
 
-
-for (let user of users) {
-    let {name, email, age} = user;
-    console.log(`User name: ${name}, User email: ${email}, User age: ${age}`);
+for (const user of users) {
+  const { name, email, age } = user;
+  console.log(`User name: ${name}, User email: ${email}, User age: ${age}`);
 }
-

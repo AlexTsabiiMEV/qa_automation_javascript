@@ -1,4 +1,5 @@
-import dataFromFile from "./example.json" with { type: "json" };
+import dataFromFile from "./example.json" assert { type: "json" };
+console.log(dataFromFile);
 
 const dataJSON = {
   name: "123sasss",
@@ -13,7 +14,7 @@ const dataJSONObject = {
 async function createSingleUser() {
   const post_response = await fetch("https://reqres.in/api/users", {
     method: "POST",
-    body: dataFromFile,
+    body: JSON.stringify(dataFromFile),
   });
   let statusCode = post_response;
   console.log(statusCode);
@@ -22,7 +23,3 @@ async function createSingleUser() {
 }
 
 createSingleUser();
-
-// Conver JSON
-
-let convertJSONInJs = JSON.parse(dataJSON);

@@ -5,9 +5,8 @@
 // Викличте вашу функцію з аргументами (наприклад 5 і 10 і виведіть результат (площу прямокутника) в консоль.
 // Реалізуйте функцію трьома способами (function declaration, function expression, arrow function)
 
-let width = 1;
-let height = 5;
-
+const width = 1;
+const height = 5;
 
 // // function declaration
 
@@ -18,9 +17,7 @@ let height = 5;
 
 // calcSquareArea(width,height);
 
-
 // function expression
-
 
 // let calcSquareArea = function(width, height) {
 //     const squareArea = width * height;
@@ -29,10 +26,8 @@ let height = 5;
 
 // calcSquareArea(width,height);
 
-
-
 // // arrow function
 
 // let calcSquareArea = (width, height) => width * height;
-   
+
 // console.log(calcSquareArea(width,height));

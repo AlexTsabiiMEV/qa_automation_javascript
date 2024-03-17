@@ -8,11 +8,11 @@
 // Використовуючи метод reduce, обчисліть суму всіх елементів масиву.
 // Виведіть отриману суму на консоль.
 
-
-
-
 const numbers = [10, 20, 30, 40, 50];
 
-const nummersSum = numbers.reduce((accumulator, current) => accumulator + current, 0);
+const nummersSum = numbers.reduce(
+  (accumulator, current) => accumulator + current,
+  0,
+);
 
 console.log(nummersSum);

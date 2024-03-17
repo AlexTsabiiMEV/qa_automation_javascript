@@ -8,13 +8,10 @@
 // Створіть новий масив, який містить всі елементи з обох вихідних масивів.
 // Виведіть отриманий об'єднаний масив на консоль.
 
-
 const firstArray = [10, 20, 30, 40, 50];
 
 const secondArray = [2, -5, 0, 7, -3, 0, 10, -8];
 
 const unitedArrat = firstArray.concat(secondArray);
 
-
 console.log(unitedArrat);
-
