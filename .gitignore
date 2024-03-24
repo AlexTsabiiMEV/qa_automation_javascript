@@ -1,0 +1,4 @@
+# Ignore artifacts:
+build
+coveragenpm init @eslint/config
+node_modules
